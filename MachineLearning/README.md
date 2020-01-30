@@ -3,7 +3,8 @@
 </h1>
 
 <h4 align="center">
-	Traditional Approach: F(x) = Y,  ML Approach: Input(X) + Output(Y) = F(X) 
+	Traditional Approach: F(x) = Y  
+	ML Approach: Input(X) + Output(Y) = F(X) 
 </h4>
 
 
