@@ -62,11 +62,11 @@ The workflow to build a machine learning model is centralized around the data. *
 
 2. Once we figure out what type of problem and what model we are going to use, we then go ahead and perform ***feature engineering***. Feature engineering transform the data into its desired form. Some examples of feature engineering would include:
 
-..* Splitting the date: Separating our data into two groups (training & testing). The training dataset is used to train our model. We can then use our trained model to test on our testing dataset to see if our model works well enough to be applied to unseen data.
+* Splitting the date: Separating our data into two groups (training & testing). The training dataset is used to train our model. We can then use our trained model to test on our testing dataset to see if our model works well enough to be applied to unseen data.
 
-..* Filling in missing values: We might need to "normalize" our dataset using various strategies that could include filling in missing values with the average value
+* Filling in missing values: We might need to "normalize" our dataset using various strategies that could include filling in missing values with the average value
 
-..* Encode: The dataset often contains non-numeric values such as categorical attributes (country, gender, city etc.). We often need to encode these string values into numerical values because if we were to use an algorithm such as linear regression, it can only deal with vectors of numbers as input
+* Encode: The dataset often contains non-numeric values such as categorical attributes (country, gender, city etc.). We often need to encode these string values into numerical values because if we were to use an algorithm such as linear regression, it can only deal with vectors of numbers as input
 
 #### Training & Testing Process
 
