@@ -74,18 +74,22 @@ The workflow to build a machine learning model is centralized around the data. *
 
 We now have our first model at the end of this training process. We then proceed to test our model with our testing data (Testing Process).
 
-**** Hyper-Parameter Tuning 
+#### Hyper-Parameter Tuning
+
+4. It is rarely the case that we are happy with our first trained model. One would then go back to the training process and tune some parameters that are exposed by the model that we selected. This is what we called the hyper-parameter tuning. The reason that it is highlighted as 'hyper' is because the parameters that we tune are the outermost interface that we interact with the model, which would eventually have impacts on the underlying parameters of the model. For example, for the decision tree model, one of its hyper-parameters would be the maximum height of the tree. Once set manually before the training, it would limit the number of branches and leaves that a decision tree can grow at the end, which are the underlying parameters that a decision tree model consists. 
+____
+
+## Overfitting vs Underfitting (Supervised)
+
+* Generalization is the term that measures how well a model can predict our desired output. When was say that our model underfitting or overfitting
+
+***Underfitting*** Our model does not fit well with the training data, meaning its function (the model) does not output values close to the training data. One reason for underfitting could be that the model is too simple to correctly capture the relationships in the data. A countermeasure would be to choose another algorithm that is better suited for the data.
+
+***Overfitting*** Our model fits way to well to our training data, but does not generalize well to unseen data. An over-complicated model that is able to fit every piece of data would fall into the traps of noises and errors. Similarly with underfitting, you can choose another algorithm that is less complicated or you can regularize the algorithm which gives a penalty to the overly complicated algorithm steering it to generate a less compliated model while fitting the data
 
 ____
 
-## Overfitting vs Underfitting
-
-
-
-
-
-
-
+## Bias Vs. Variance
 
 
 ____
@@ -93,4 +97,4 @@ ____
 Sources & Thanks To
 
 <sub><sup>AI, A Modern Approach (Russell, Norvig)</sup></sub>
-<sub><sup>LeetCode Articles</sup></sub>
+<sub><sup>LeetCode Machine Learning Article</sup></sub>
