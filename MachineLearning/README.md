@@ -22,15 +22,6 @@ Given a machine learning problem, first we need to determine if it is a supervis
 
 ***Supervised learning*** if used when our training dataset has an attribute (a column) that contains the "answer", usually called the target or ground truth. The dataset that contains the target attribute is called "labeled" data.
 
-#### Types of Supervised Learning Algorithms:
-
-* [Linear Regression]()
-* [Nearest Neighbor]()
-* [Gaussian Naive Bayes]()
-* [Decision Trees]()
-* [Support Vector Machine]()
-* [Random Forest]()
-
 ### Unsupervised Learning
 
 ***Unsupervised learning*** is used when we do not have labeled data. The machine learning model is expected to learn the underlying patterns
@@ -91,10 +82,11 @@ ____
 
 ## Bias Vs. Variance
 
-
+***Bias*** is the learners tendency to consistently learn the same wrong thing whereas ***Variance*** is the tendency to learn random things unrelated to the real signal.
 ____
 
 Sources & Thanks To
 
-<sub><sup>AI, A Modern Approach (Russell, Norvig)</sup></sub>
-<sub><sup>LeetCode Machine Learning Article</sup></sub>
+<sub><sup>AI, A Modern Approach (Russell, Norvig)</sup></sub><br>
+<sub><sup>LeetCode Machine Learning Article</sup></sub><br>
+<sub><sup>A Tour of Machine Learning Algorithms - Jason Brownlee</sup></sub>
