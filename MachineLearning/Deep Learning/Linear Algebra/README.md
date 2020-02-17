@@ -1,5 +1,5 @@
 <h1 align="center">
-    :hear_no_evil: Linear Algebra
+    :arrow_upper_right: Linear Algebra
 </h1>
 
 <h4 align="center">
