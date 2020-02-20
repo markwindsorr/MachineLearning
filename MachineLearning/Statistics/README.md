@@ -54,7 +54,7 @@ x = numpy.std(speed)
 
 ### Variance
 
-Another value that describes how spread out the values are. It is the square of the standard deviation. a.) Find the mean b.) For each value subtract the mean and then square it c.) The variance is the average of these squared differences/.
+Another value that describes how spread out the values are. It is the square of the standard deviation. a.) Find the mean b.) For each value subtract the mean and then square it c.) The variance is the average of these squared differences.
 
 ```
 x = numpy.var(speed)

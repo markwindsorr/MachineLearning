@@ -17,3 +17,4 @@
 ***Matrices*** a 2-D array where each element is identified by two indices instead of one.
 
 ***Tensors*** In cases where we need an array with more than two axes. In general, an array of numbers arranged on a regular grid with a variable number of axes is known as a tensor.
+
