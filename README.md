@@ -22,13 +22,24 @@ Given a machine learning problem, first we need to determine if it is a supervis
 
 ***Supervised learning*** if used when our training dataset has an attribute (a column) that contains the "answer", usually called the target or ground truth. The dataset that contains the target attribute is called "labeled" data.
 
+* Classification
+* Regression
+
 ### Unsupervised Learning
 
 ***Unsupervised learning*** is used when we do not have labeled data. The machine learning model is expected to learn the underlying patterns
 
+* Clustering
+* Dimensionality Reduction
+* Recommendation
+
 ### Semi-supervised
 
 ***Semi-supervised Learning*** is when we have some labeled data but most of it is unlabeled. We can then use a mixture of supervised and unsupervised learning techniques.
+
+### Reinforcement Learning
+
+***Reinforcement Learning*** is an area of machine learning where we look at how agents ought to take actions in an environment in order to maximize some notion of a cumulative reward.
 
 
 ## Specify Type of Model (Supervised) Classification vs. Regression
@@ -76,7 +87,11 @@ ____
 
 ***Underfitting*** Our model does not fit well with the training data, meaning its function (the model) does not output values close to the training data. One reason for underfitting could be that the model is too simple to correctly capture the relationships in the data. A countermeasure would be to choose another algorithm that is better suited for the data.
 
-***Overfitting*** Our model fits way to well to our training data, but does not generalize well to unseen data. An over-complicated model that is able to fit every piece of data would fall into the traps of noises and errors. Similarly with underfitting, you can choose another algorithm that is less complicated or you can regularize the algorithm which gives a penalty to the overly complicated algorithm steering it to generate a less compliated model while fitting the data
+In other words, failing to capture the relevant patterns.
+
+***Overfitting*** Our model fits way to well to our training data, but does not generalize well to unseen data. An over-complicated model that is able to fit every piece of data would fall into the traps of noises and errors. Similarly with underfitting, you can choose another algorithm that is less complicated or you can regularize the algorithm which gives a penalty to the overly complicated algorithm steering it to generate a less compliated model while fitting the data.
+
+In orther words, capturing spurious patterns that won't recur in the future.
 
 ____
 
@@ -87,6 +102,7 @@ ____
 
 Sources & Thanks To
 
+<sub><sup>Machine Learning for Humans (Maini, Sabri)</sup></sub><br>
 <sub><sup>AI, A Modern Approach (Russell, Norvig)</sup></sub><br>
 <sub><sup>LeetCode Machine Learning Article</sup></sub><br>
 <sub><sup>A Tour of Machine Learning Algorithms - Jason Brownlee</sup></sub>
