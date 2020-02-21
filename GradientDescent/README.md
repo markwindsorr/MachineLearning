@@ -14,7 +14,7 @@ Gradient descent is an optimization algorithm that is used to minimize some func
 
 In summary, we are iteratively stepping downhill specified by the steepest negative gradient at each point until we have reached our local minimum which is the lowest point of our cost function.
 
-![gradientDescent](gradientDescent1.jpeg)
+![gradientDescent](gradientDescent1.jpeg =250x250)
 
 ## Learning Rate
 
