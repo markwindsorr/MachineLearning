@@ -34,7 +34,7 @@ We are looking for lines that fit our data better (where better is defined by ou
 
 #### Math
 
-<img style="float: center;" src="errorFunction.jpeg" width="300">
+<img style="float: center;" src="errorFunction.jpeg" width="400">
 
 #### Code
 ```
@@ -49,7 +49,7 @@ def compute_error(b, m, X, Y):
 
 The gradient can be calculated as:
 
-<img style="float: center;" src="partialDerivative.jpeg" width="300">
+<img style="float: center;" src="partialDerivative.jpeg" width="400">
 
 #### Code
 
