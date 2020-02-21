@@ -1,5 +1,5 @@
 <h1 align="center">
-    :robot: Gradient Descent
+    :arrow_down: Gradient Descent
 </h1>
 
 # Overview 
