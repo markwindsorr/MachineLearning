@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="300" src="assets/mlBanner.jpeg">
+  <img src="assets/mlBanner.jpeg">
 </p>
 
 <h1 align="center">
