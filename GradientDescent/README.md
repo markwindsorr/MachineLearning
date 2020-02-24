@@ -74,6 +74,8 @@ def gradient_step(m, b, X, Y, learning_rate):
     return m, b
 ```
 
+A way to ensure that the gradient descent is working correctly is to make sure that the error decreases for each iteration.
+
 Sources & Thanks To
 
 <sub><sup>Intro to Gradient Descent & Linear Regression (Matt Nedrich)</sup></sub><br>
