@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/mlBanner.jpg">
+</p>
+
 <h1 align="center">
     :robot: Learning Machine Learning
 </h1>

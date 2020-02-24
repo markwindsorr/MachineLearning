@@ -14,7 +14,9 @@ Gradient descent is an optimization algorithm that is used to minimize some func
 
 In summary, we are iteratively stepping downhill specified by the steepest negative gradient at each point until we have reached our local minimum which is the lowest point of our cost function.
 
-<img style="float: center;" src="gradientDescent1.jpeg" width="300">
+<p align="center">
+  <img width="460" height="300" src="assets/gradientDescent1.jpeg">
+</p>
 
 ## Learning Rate
 
@@ -34,7 +36,11 @@ We are looking for lines that fit our data better (where better is defined by ou
 
 #### Math
 
-<img style="float: center;" src="errorFunction.jpeg" width="400">
+<p align="center">
+  <img width="460" src="assets/errorFunction.jpeg">
+</p>
+
+
 
 #### Code
 ```
@@ -49,7 +55,9 @@ def compute_error(b, m, X, Y):
 
 The gradient can be calculated as:
 
-<img style="float: center;" src="partialDerivative.jpeg" width="400">
+<p align="center">
+  <img width="460" src="assets/partialDerivative.jpeg">
+</p>
 
 #### Code
 
