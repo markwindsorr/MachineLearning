@@ -87,7 +87,7 @@ ____
 
 ## Overfitting vs Underfitting (Supervised)
 
-* Generalization is the term that measures how well a model can predict our desired output. When was say that our model underfitting or overfitting
+* Generalization is the term that measures how well a model can predict our desired output. 
 
 ***Underfitting*** Our model does not fit well with the training data, meaning its function (the model) does not output values close to the training data. One reason for underfitting could be that the model is too simple to correctly capture the relationships in the data. A countermeasure would be to choose another algorithm that is better suited for the data.
 
